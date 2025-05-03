@@ -1,0 +1,38 @@
+
+import { Link } from 'react 224.3 76.3% -router-dom';
+import { Card,48%;
+    --sidebar-primary-fore CardContent, CardHeader } from '@/componentsground: 0 0% 100%;/ui/card';
+import {
+    --sidebar-accent: 240  Button } from '@/components/ui/button3.7% 15.9%;';
+import Icon from '@/components/ui
+    --sidebar-accent-foreground: /icon';
+
+type QuickAction240 4.8% 95.9 = {
+  icon: string;
+  %;
+    --sidebar-border: 240 3.7% 15.9%;label: string;
+  path
+    --sidebar-ring: 217.: string;
+};
+
+type QuickAct2 91.2% 59.8ionsCardProps = {
+  actions: QuickAction[];
+};
+
+const QuickAct%;
+  }
+}
+
+@layer base {ionsCard = ({ actions }: QuickAct
+  * {
+    @apply border-ionsCardProps) => {
+  return ([hsl(var(--
+    <Card className="bg-ecoborder))];
+  }White shadow-sm">
+      <Car
+
+  body {
+    @apply bg-backgroundHeader className="pb-2">
+        d text-foreground;
+  }
+}<h3 className="text-lg font-medium text-ecoTextPrimary flex

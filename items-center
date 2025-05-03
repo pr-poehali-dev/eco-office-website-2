@@ -1,0 +1,53 @@
+
+          <Icon name="tailwind.config.ts">import { fontFamily } from "Zap" className="mrtailwindcss/defaultTheme";-2 text-ecoIcon" size
+import type { Config } from "={20} />
+          Быстрtailwindcss";
+
+constые действия
+        </h3>
+      </CardHeader>
+      <CardContent config = {
+  darkMode: [" className="pt-0">
+        <divclass"],
+  content: [ className="grid grid-cols-2
+    "./pages/**/*.{ts gap-2 sm,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app:grid-cols-2 lg/**/*.{ts,tsx}",
+    :grid-cols-4">
+          {actions"./src/**/*.{ts,tsx}",
+  .map((action, index) => (
+            <Link to={action.path}],
+  prefix: "",
+  theme: { key={index}>
+              <Button 
+    container: {
+      center: true,
+      padding: "2
+                variant="outline" 
+                classNamerem",
+      screens: {
+        ="w-full h-full flex"2xl": "1400px",
+      },
+    },
+    extend: { flex-col items-center justify-center p
+      colors: {
+        //-4 gap-2 border-gray-200 hover:bg-ecoBg hover:text Эко-офисная ц-ecoAccent hover:border-eветовая палитра
+        "ecocoAccent transition-colors"
+              >
+                <Icon name={action.icon-background": "#F0F4F8",} size={20} />
+                
+        "eco-accent": "#4<span className="text-xs textCAF50",
+        "eco-widget-center">{action.label": "#FFFFFF",
+        "eco-}</span>
+              </Button>
+            </Link>
+          ))}
+        </div>
+      </CardContent>
+    text-primary": "#212121",
+        "eco-text-secondary": "#757575",
+        "eco-icon</Card>
+  );
+};
+
+export": "#388E3C", default QuickActionsCard;
